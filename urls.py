@@ -7,9 +7,16 @@
 
 
 from view import *
-from tornado.web import RequestHandler,Application,url
-def make_app():
-    return Application([
-        url(r"/", MainHandler),
-        url(r'/ge', Synch)
-    ])
+from tornado.web import RequestHandler, Application, url
+from settings import setings
+
+url_list = [
+    url(r"/", MainHandler),
+    url(r'/ge', Synch)
+]
+
+make_app = Application(
+    url_list, **setings)
+
+
+# make_app.add_handlers('https://www.qqc-home.com', url_list)

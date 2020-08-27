@@ -16,7 +16,6 @@ from urls import make_app
 
 
 if __name__ == '__main__':
-    app = make_app()
-    http_server = HTTPServer(app)
+    http_server = HTTPServer(make_app)
     http_server.listen(8888)
     IOLoop.current().start()
