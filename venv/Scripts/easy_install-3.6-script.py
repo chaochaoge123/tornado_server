@@ -1,4 +1,4 @@
-#!C:\Users\admin\Desktop\MiPush_Server_Python_20170704\xmpush-python-1.0.4\venv\Scripts\python3.exe
+#!E:\news\tornado_server\venv\Scripts\python3.exe
 # EASY-INSTALL-ENTRY-SCRIPT: 'setuptools==39.0.1','console_scripts','easy_install-3.6'
 __requires__ = 'setuptools==39.0.1'
 import re

@@ -12,7 +12,7 @@ from tornado.httpclient import HTTPClient
 from tornado.httpserver import HTTPServer
 import requests
 import redis
-from tornado_server.urls import make_app
+from urls import make_app
 
 
 if __name__ == '__main__':

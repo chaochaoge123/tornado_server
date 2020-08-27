@@ -6,7 +6,7 @@
 # @Software: PyCharm
 
 
-from tornado_server.view import *
+from view import *
 from tornado.web import RequestHandler,Application,url
 def make_app():
     return Application([

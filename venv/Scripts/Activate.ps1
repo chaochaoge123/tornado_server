@@ -27,7 +27,7 @@ function global:deactivate ([switch]$NonDestructive) {
 
 deactivate -nondestructive
 
-$env:VIRTUAL_ENV="C:\Users\admin\Desktop\MiPush_Server_Python_20170704\xmpush-python-1.0.4\venv"
+$env:VIRTUAL_ENV="E:\news\tornado_server\venv"
 
 if (! $env:VIRTUAL_ENV_DISABLE_PROMPT) {
     # Set the prompt to include the env name
